@@ -1,0 +1,20 @@
+.displayingContent{
+    margin: auto;
+    text-align: center;
+}
+.firstElement {
+    font-size: 80px;
+    font-family: poppins;
+    margin: 0px;
+}
+.displayingContent p{
+    font-size: 40px;
+}
+#showHere{
+    font-size: 80px;
+    font-family: poppins;
+}
+li{
+    list-style: none;
+    margin-right: 20px;
+}
