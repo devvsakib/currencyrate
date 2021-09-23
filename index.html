@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Currency</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Convert Currency</h1>
+<P>Available Currency:</P>
+        <ul class="d-flex">
+            <li>FJD</li>
+            <li>MXN</li>
+            <li>STD</li>
+            <li>SCR</li>
+            <li>GTQ</li>
+            <li>BBD</li>
+            <li>CLP</li>
+            <li>CDF</li>
+            <li>HNL</li>
+            <li>UGX</li>
+            <li>CUSC</li>
+            <li>SLL</li>
+            <li>BSD</li>
+            <li>ZAR</li>
+            <li>TDN</li>
+        </ul>
+
+        <div class="input-group mb-3">
+                <span class="input-group-text">$</span>
+                <span class="input-group-text">0.00</span>
+                <input id="getInput" type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                <input id="sendInput" class="btn btn-outline-success" type="submit"></input>
+            </div>
+            <div class="displayingContent">
+                <h1 class="firstElement py-5 d-inline-block">1 USD</h1>
+                <p class="py-5 d-inline-block">equal to <span class="" id="showHere"></span></p>
+            </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
